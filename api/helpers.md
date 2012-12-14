@@ -256,8 +256,8 @@ Refresh the current request.
 
 
 
-<a id="refresh"></a>
-### refresh()
+<a id="render"></a>
+### render()
 
 Render a view.
 
@@ -267,8 +267,8 @@ Render a view.
 	
 
 
-<a id="refresh"></a>
-### refresh()
+<a id="singularize"></a>
+### singularize()
 
 Singularize a string. Converts a word to english singular form.
 
@@ -285,17 +285,8 @@ Spacify a string.
 
 
 
-<a id="spacify"></a>
-### spacify()
-
-Format a total value as a string with precision. To format localized money string, use money() instead.
-
-	{"long-name-for-example"|spacify} # Long Name For Example
-
-
-
-<a id="money"></a>
-### money()
+<a id="total"></a>
+### total()
 
 Format a total value as a string with precision. To format localized money string, use <a href="#money">money()</a> instead.
 
