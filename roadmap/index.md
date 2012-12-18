@@ -10,6 +10,10 @@ Admin interface for managing settings (the ones currently found in config/app.ym
 
 A system and core helper for localizing language text. We are considering support for various file formats such as PO and YAML. If you have a preference, we'd love to hear from you.
 
+### Installer <span class="label label-info">Planning</span>
+
+A user interface to guide new installations. It will includes steps to progress through system dependencies, database setup, file permissions, plugins, templates, and other general settings.
+
 ### Custom Attribute Management <span class="label label-info">Planning</span>
 
 Although collection attributes can be added on the fly already (thanks to MongoDB), not everyone wants to edit Admin HTML to do it. This feature will make it possible to add custom attributes to any collection without writing code.
